@@ -1,20 +1,10 @@
-\# 🌸 Flower Classification using CNN \& Transfer Learning (MobileNetV2)
+🌸 Flower Classification using CNN \& Transfer Learning (MobileNetV2)
 
 
 
-!\[Python](https://img.shields.io/badge/Python-3.x-blue)
-
-!\[TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange)
-
-!\[Keras](https://img.shields.io/badge/Keras-Neural%20Networks-red)
-
-!\[OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-green)
-
-!\[Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 
-
-\## 📌 Project Overview
+Project Overview
 
 This project focuses on flower image classification using:
 
@@ -30,39 +20,29 @@ The model is trained on the TensorFlow Flower Dataset to classify flower images 
 
 
 
-\---
+Dataset: TensorFlow Flower Dataset
 
 
 
-\## 📂 Dataset
+Classes:
 
-\*\*Dataset:\*\* TensorFlow Flower Dataset
+\- Daisy 
 
+\- Dandelion 
 
+\- Roses 
 
-\*\*Classes:\*\*
+\- Sunflowers 
 
-\- Daisy 🌼
-
-\- Dandelion 🌿
-
-\- Roses 🌹
-
-\- Sunflowers 🌻
-
-\- Tulips 🌷
+\- Tulips 
 
 
 
-\---
 
 
+Models Used
 
-\## 🧠 Models Used
-
-
-
-\### 1. CNN from Scratch
+1\. CNN from Scratch
 
 \- Built using Conv2D, MaxPooling, Dense layers
 
@@ -72,7 +52,7 @@ The model is trained on the TensorFlow Flower Dataset to classify flower images 
 
 
 
-\### 2. Transfer Learning using MobileNetV2
+2\. Transfer Learning using MobileNetV2
 
 \- Uses pretrained ImageNet weights
 
@@ -82,7 +62,7 @@ The model is trained on the TensorFlow Flower Dataset to classify flower images 
 
 
 
-\### 3. Fine-Tuning
+3\. Fine-Tuning
 
 \- Last layers of MobileNetV2 unfrozen
 
@@ -92,11 +72,11 @@ The model is trained on the TensorFlow Flower Dataset to classify flower images 
 
 
 
-\---
 
 
 
-\## 📊 Results
+
+Results
 
 
 
@@ -112,11 +92,9 @@ The model is trained on the TensorFlow Flower Dataset to classify flower images 
 
 
 
-\---
 
 
-
-\## 🔍 Key Observations
+Key Observations
 
 \- Transfer Learning converges faster than CNN from scratch
 
@@ -130,49 +108,13 @@ The model is trained on the TensorFlow Flower Dataset to classify flower images 
 
 
 
-\---
 
 
 
-\## 🖼️ Screenshots
 
 
 
-\### Dataset Sample
-
-!\[Dataset Sample](screenshots/dataset\_sample.png)
-
-
-
-\### CNN Training Output
-
-!\[CNN Training](screenshots/cnn\_training.png)
-
-
-
-\### Transfer Learning Output
-
-!\[Transfer Learning](screenshots/tl\_training.png)
-
-
-
-\### Fine-Tuning Output
-
-!\[Fine Tuning](screenshots/fine\_tuning.png)
-
-
-
-\### Accuracy Graph
-
-!\[Accuracy Graph](screenshots/accuracy\_plot.png)
-
-
-
-\---
-
-
-
-\## ⚙️ Technologies Used
+Technologies Used
 
 \- Python
 
@@ -188,11 +130,11 @@ The model is trained on the TensorFlow Flower Dataset to classify flower images 
 
 
 
-\---
 
 
 
-\## 🚀 How to Run
+
+How to Run
 
 1\. Open the notebook in Google Colab or Jupyter Notebook
 
@@ -204,21 +146,21 @@ The model is trained on the TensorFlow Flower Dataset to classify flower images 
 
 
 
-\---
 
 
 
-\## 📌 Conclusion
+
+Conclusion
 
 Transfer Learning with MobileNetV2 performs much better than CNN from scratch on this dataset. Fine-tuning the last layers can further improve the results slightly, but it also increases overfitting risk.
 
 
 
-\---
 
 
 
-\## 👩‍💻 Author
 
-\*\*Rachana R\*\*
+Author
+
+Rachana R
 
